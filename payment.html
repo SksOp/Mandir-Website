@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- icon -->
+  <link rel="icon" href="/Images/sun-icon-2.png" type="image/gif" sizes="16x16">
+
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!--css-->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <!-- HEAD -->
+  <div class="head">
+    <img class="pattern pattern-1" src="images/pattern.png" alt="">
+    <a href="index.html" class="head-text">श्री श्री बरम बाबा का मंदिर</a>
+    <!-- <h1 class="head-text">श्री श्री बरम बाबा का मंदिर</h1> -->
+    <img class="pattern pattern-2" src="images/pattern.png" alt="">
+  </div>
+  
+  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-brown ">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav justify-content-center collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a href="/index.html" class=" nav-link text">होम</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link text">ऑनलाइन सर्विसेज</a>
+        </li>
+        <li class="nav-item">
+          <a href="/payment.html" class="nav-link active text">दान करें</a>
+        </li>
+        <li class="nav-item">
+          <a href="/history.html" class="nav-link  text">अबाउट</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+ <div class="container payment-cont">
+  <div class="row">
+    <div class="col-12 col-lg-3 paycard">
+      <h1 class="dan-text-head">दान पात्र</h1>
+      <hr class="pay-underline">
+      <p class="mandir-address">मंदिर का नाम <br> मंदिर का स्थान <br>000000 </p>
+    </div>
+    <div class="col-12 col-lg-3">
+      <h1 class="dan-text-head">दान करें</h1>
+      <hr class="pay-underline">
+        <form class="pay-btn">
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_K8lA8nZPVYYSjW"
+            async> </script>
+        </form>
+    </div>
+    <div class="col-12 col-lg-4">
+      
+    </div>
+  </div>
+ </div>
+  
+  <section id="footer-upper">
+    <div class="footer-upper-col1">
+      <h2>उपयोगी वेबसाइट</h2>
+      <hr class="footer-upper-heading-underline">
+      <a href="#">
+        <p>श्री महावीर स्थान न्यास समिति</p>
+      </a>
+      <hr class="footer-upper-row-line">
+      <a href="#">
+        <p>महावीर मन्दिर</p>
+      </a>
+      <hr class="footer-upper-row-line">
+    </div>
+    <div class="footer-upper-col2">
+      <h2>उपयोगी लिंक्स</h2>
+      <hr class="footer-upper-heading-underline">
+      <a href="#">
+        <p>न्यास समितिि</p>
+      </a>
+      <hr class="footer-upper-row-line">
+      <a href="#">
+        <p>सेक्रेटरी सन्देश</p>
+      </a>
+      <hr class="footer-upper-row-line">
+    </div>
+    <div class="footer-upper-col3">
+      <h2>आरोग्य संस्थानस</h2>
+      <hr class="footer-upper-heading-underline">
+      <a href="#">
+        <p>महावीर आरोग्य संस्थान</p>
+      </a>
+      <hr class="footer-upper-row-line">
+      <a href="#">
+        <p>महावीर नेत्रालय</p>
+      </a>
+      <hr class="footer-upper-row-line">
+    </div>
+    <div class="footer-upper-col4">
+      <h2>संपर्क करें</h2>
+      <hr class="footer-upper-heading-underline">
+      <p>महावीर मन्दिर <br>
+        पटना रेलवे स्टेशन के समीप <br>
+        पिन : 800001 <br>
+        दूरभाष : 0612 2223789 <br>
+        ईमेल : mahavirmandir@gmail.com</p>
+      <!-- <a href="#"><p>महावीर नेत्रालय</p></a> -->
+    </div>
+  </section>
+
+
+  <!-- footer footer-lower -->
+
+  <section id="footer-lower">
+    <footer class="" id="footer">
+      <i class="fa-brands fa-twitter contact-logos"></i>
+      <i class="fa-brands fa-facebook-f contact-logos"></i>
+      <i class="fa-brands fa-instagram contact-logos"></i>
+      <i class="fa-solid fa-envelope contact-logos"></i>
+      <p class="text-secondary">सर्वाधिकार © 2022 श्री महावीर स्थान न्यास समिति द्वारा सभी अधिकार सुरक्षित | गोपनीयता
+        नीति सेवाओं की शर्तें</p>
+    </footer>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
